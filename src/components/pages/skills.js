@@ -47,7 +47,7 @@ class Skills extends Component {
                 </div>
                 <div className="column">
                   <Card>
-                    <div onClick={() => {window.open("https://www.google.com"/)}} style={{cusrsor:'pointer'}}>
+                    <div onClick={() => {window.open("https://www.google.com/")}} style={{cusrsor:'pointer'}}>
                     <div style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img alt="Desktop Apps" style={{width:'100px'}} src={desktop}/></div>                                 
                         <div className="card-title">Desktop Apps <span role="img" aria-label="emoji">😮</span>  </div>
                         <div className="card-body"><p>High quallity desktop applications.Products target business that want to expand their services, or get feedback and improve their current services.</p></div>
