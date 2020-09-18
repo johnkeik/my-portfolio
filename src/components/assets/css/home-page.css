@@ -38,3 +38,23 @@
     font-size: 20px;
     padding:1em;
   }
+
+  .bio__button:hover{
+    color:orange;
+    cursor: grab;
+    
+
+  }
+  .bio__button{
+    background-color: rgb(71, 71, 71);
+    opacity: .8;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 40%;
+    margin-right:40%;
+  }
+  .bio__button p{
+    font-size: 2em;;
+  }
+

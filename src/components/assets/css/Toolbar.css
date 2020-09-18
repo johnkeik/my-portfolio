@@ -54,6 +54,15 @@
     color:orange;
 }
 
+.toolbar__links{
+    color: white;
+    text-decoration: none;
+}
+.toolbar__links:hover{
+    color: orange;
+    text-decoration: none;
+}
+
 
 @media (max-width:768px){
     .toolbar__navigation-items{

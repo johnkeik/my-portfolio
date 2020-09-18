@@ -21,6 +21,7 @@ export default function ContactUs() {
         <div style={{ width: '100%', margin: 'auto' ,backgroundColor:'#282828' }}>
                     <div className="contact__container">
                         <div className="contact__form">
+                            <br></br>
                         <h2 style={{ color: 'white' }}>If you want to get in touch with me.Send me an email.</h2>
                         <form onSubmit={sendEmail}>
                             <div className="row pt-5 mx-auto">

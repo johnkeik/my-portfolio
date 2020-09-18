@@ -13,10 +13,13 @@ import { faEnvelope, faKey, faTablet } from '@fortawesome/free-solid-svg-icons';
 import Backdrop from './components/Backdrop/Backdrop';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Bio from './components/pages/bio';
+import Home from './components/pages/home';
+
+
 library.add(faEnvelope, faKey, faTablet);
 
 class App extends Component {
-  state = {
+ /*  state = {
     sideDrawerOpen: false
   };
 
@@ -34,18 +37,19 @@ class App extends Component {
   componentDidMount() {
     scrollToComponent(this.Blue, { offset: 0, align: 'middle', duration: 500, ease: 'inCirc' });
   };
-
+ */
   render() {
 
 
-    let backdrop;
+   /*  let backdrop;
 
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
-    }
+    } */
     return (
       <div className="App" style={{ height: "100%" }}>
-        <header className="toolbar" >
+       <Home/>
+        {/* <header className="toolbar" >
           <nav className="toolbar__navigation">
             <div className="toolbar__toggle-button" style={{ paddingRight: "20px" }}>
               <DrawerToggleButton click={this.drawerToggleClickHandler} />
@@ -93,7 +97,7 @@ class App extends Component {
               <ContactUs />
             </div>
           </section>
-        </div>
+        </div> */}
       </div>
     );
   }
