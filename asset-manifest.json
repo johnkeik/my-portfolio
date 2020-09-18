@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b8680fa1.chunk.css",
-    "main.js": "/portfolio/static/js/main.e9eaac88.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e9eaac88.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.ad3b6095.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.ad3b6095.js.map",
-    "static/js/2.5eb64a0e.chunk.js": "/portfolio/static/js/2.5eb64a0e.chunk.js",
-    "static/js/2.5eb64a0e.chunk.js.map": "/portfolio/static/js/2.5eb64a0e.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.bfd3c1991daee6b1862ac6d3c16d343c.js": "/portfolio/precache-manifest.bfd3c1991daee6b1862ac6d3c16d343c.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.b8680fa1.chunk.css.map": "/portfolio/static/css/main.b8680fa1.chunk.css.map",
-    "static/js/2.5eb64a0e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5eb64a0e.chunk.js.LICENSE.txt",
-    "static/media/CV-Europass-Keikoglou-EN.pdf": "/portfolio/static/media/CV-Europass-Keikoglou-EN.9edc275e.pdf",
-    "static/media/counter_Dart.jpg": "/portfolio/static/media/counter_Dart.cd3df888.jpg",
-    "static/media/desktop-trans.png": "/portfolio/static/media/desktop-trans.7c36b0a0.png",
-    "static/media/tablet-trans.png": "/portfolio/static/media/tablet-trans.9541f535.png",
-    "static/media/web-trans.png": "/portfolio/static/media/web-trans.5ddfbfc5.png"
+    "main.css": "/my-portfolio/static/css/main.b8680fa1.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.c88f2e71.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.c88f2e71.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.d891d3af.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.d891d3af.js.map",
+    "static/js/2.5eb64a0e.chunk.js": "/my-portfolio/static/js/2.5eb64a0e.chunk.js",
+    "static/js/2.5eb64a0e.chunk.js.map": "/my-portfolio/static/js/2.5eb64a0e.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "precache-manifest.38fde0b64f3249fb4666b75b198b85d0.js": "/my-portfolio/precache-manifest.38fde0b64f3249fb4666b75b198b85d0.js",
+    "service-worker.js": "/my-portfolio/service-worker.js",
+    "static/css/main.b8680fa1.chunk.css.map": "/my-portfolio/static/css/main.b8680fa1.chunk.css.map",
+    "static/js/2.5eb64a0e.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.5eb64a0e.chunk.js.LICENSE.txt",
+    "static/media/CV-Europass-Keikoglou-EN.pdf": "/my-portfolio/static/media/CV-Europass-Keikoglou-EN.9edc275e.pdf",
+    "static/media/counter_Dart.jpg": "/my-portfolio/static/media/counter_Dart.cd3df888.jpg",
+    "static/media/desktop-trans.png": "/my-portfolio/static/media/desktop-trans.7c36b0a0.png",
+    "static/media/tablet-trans.png": "/my-portfolio/static/media/tablet-trans.9541f535.png",
+    "static/media/web-trans.png": "/my-portfolio/static/media/web-trans.5ddfbfc5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad3b6095.js",
+    "static/js/runtime-main.d891d3af.js",
     "static/js/2.5eb64a0e.chunk.js",
     "static/css/main.b8680fa1.chunk.css",
-    "static/js/main.e9eaac88.chunk.js"
+    "static/js/main.c88f2e71.chunk.js"
   ]
 }
