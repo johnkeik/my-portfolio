@@ -22,7 +22,7 @@ function HomePage() {
         />
         <div className="banner__text">
           <br></br>
-          <h1>Full stack  developer.I wish</h1>
+          <h1>Full stack  developer.</h1>
           <hr />
           <p>I am student of International Hellenic University of Greece at the Department of IT with great passion for
 								software development and in particular for embedded systems applications,I am highly intrested in learning new things and technologies.</p>
