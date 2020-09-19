@@ -8,8 +8,9 @@
   }
 
   .avatar__img{
-    height :550px;
-    padding-top: 5em ;
+    width:100%;
+    max-width:550px;
+    padding-top: 5em;
   }
   
   .banner__text{
@@ -25,8 +26,21 @@
     font-size: 66px;
     font-weight: bold;
     color:white;
+    width:100%;
+   
   }
-  
+  @media screen and (max-width:600px){
+      .banner__text h1{
+        font-size:30px;
+      }
+      .bio__button{
+        margin-left:20%;
+        margin-right:20%;
+      }
+      .bio__button p{
+        font-size: 10px;
+      }
+  }
   .banner__text hr{
     border-top: 5px dotted white;
     width:50%;
@@ -37,6 +51,7 @@
     color:white;
     font-size: 20px;
     padding:1em;
+
   }
 
   .bio__button:hover{

@@ -17,8 +17,9 @@ export default Popup; */
 
 import React, {useState} from "react";
 import './styless.css';
-import { Document, Page } from "react-pdf";
+import { Document, Page ,pdfjs} from "react-pdf";
 import samplePdf from "../assets/CV-Europass-Keikoglou-EN.pdf"
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const Popup = props => {
   const [numPages, setNumPages] = useState(null);
