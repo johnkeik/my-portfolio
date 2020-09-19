@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/johnkeik.github.io/static/css/main.b8680fa1.chunk.css",
-    "main.js": "/johnkeik.github.io/static/js/main.d7ec725e.chunk.js",
-    "main.js.map": "/johnkeik.github.io/static/js/main.d7ec725e.chunk.js.map",
+    "main.css": "/johnkeik.github.io/static/css/main.84be710b.chunk.css",
+    "main.js": "/johnkeik.github.io/static/js/main.7d73df2a.chunk.js",
+    "main.js.map": "/johnkeik.github.io/static/js/main.7d73df2a.chunk.js.map",
     "runtime-main.js": "/johnkeik.github.io/static/js/runtime-main.41067b7c.js",
     "runtime-main.js.map": "/johnkeik.github.io/static/js/runtime-main.41067b7c.js.map",
-    "static/js/2.5eb64a0e.chunk.js": "/johnkeik.github.io/static/js/2.5eb64a0e.chunk.js",
-    "static/js/2.5eb64a0e.chunk.js.map": "/johnkeik.github.io/static/js/2.5eb64a0e.chunk.js.map",
+    "static/js/2.fc380aac.chunk.js": "/johnkeik.github.io/static/js/2.fc380aac.chunk.js",
+    "static/js/2.fc380aac.chunk.js.map": "/johnkeik.github.io/static/js/2.fc380aac.chunk.js.map",
     "index.html": "/johnkeik.github.io/index.html",
-    "precache-manifest.009c6f9338f9693d2e71e08a19f6b035.js": "/johnkeik.github.io/precache-manifest.009c6f9338f9693d2e71e08a19f6b035.js",
+    "precache-manifest.a08c93cc0d24efae5c5d34b18738dbc0.js": "/johnkeik.github.io/precache-manifest.a08c93cc0d24efae5c5d34b18738dbc0.js",
     "service-worker.js": "/johnkeik.github.io/service-worker.js",
-    "static/css/main.b8680fa1.chunk.css.map": "/johnkeik.github.io/static/css/main.b8680fa1.chunk.css.map",
-    "static/js/2.5eb64a0e.chunk.js.LICENSE.txt": "/johnkeik.github.io/static/js/2.5eb64a0e.chunk.js.LICENSE.txt",
+    "static/css/main.84be710b.chunk.css.map": "/johnkeik.github.io/static/css/main.84be710b.chunk.css.map",
+    "static/js/2.fc380aac.chunk.js.LICENSE.txt": "/johnkeik.github.io/static/js/2.fc380aac.chunk.js.LICENSE.txt",
     "static/media/CV-Europass-Keikoglou-EN.pdf": "/johnkeik.github.io/static/media/CV-Europass-Keikoglou-EN.9edc275e.pdf",
-    "static/media/counter_Dart.jpg": "/johnkeik.github.io/static/media/counter_Dart.cd3df888.jpg",
+    "static/media/counter_Dart.png": "/johnkeik.github.io/static/media/counter_Dart.60c74654.png",
     "static/media/desktop-trans.png": "/johnkeik.github.io/static/media/desktop-trans.7c36b0a0.png",
+    "static/media/eventsproject.png": "/johnkeik.github.io/static/media/eventsproject.bd4b33ee.png",
+    "static/media/minion.png": "/johnkeik.github.io/static/media/minion.06fd21b7.png",
     "static/media/tablet-trans.png": "/johnkeik.github.io/static/media/tablet-trans.9541f535.png",
-    "static/media/web-trans.png": "/johnkeik.github.io/static/media/web-trans.5ddfbfc5.png"
+    "static/media/web-trans.png": "/johnkeik.github.io/static/media/web-trans.5ddfbfc5.png",
+    "static/media/whitetower.png": "/johnkeik.github.io/static/media/whitetower.3de45e28.png"
   },
   "entrypoints": [
     "static/js/runtime-main.41067b7c.js",
-    "static/js/2.5eb64a0e.chunk.js",
-    "static/css/main.b8680fa1.chunk.css",
-    "static/js/main.d7ec725e.chunk.js"
+    "static/js/2.fc380aac.chunk.js",
+    "static/css/main.84be710b.chunk.css",
+    "static/js/main.7d73df2a.chunk.js"
   ]
 }
