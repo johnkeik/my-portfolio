@@ -65,7 +65,13 @@
 
 
 @media (max-width:768px){
-    .toolbar__navigation-items{
+    /* .toolbar__navigation-items{
+        display: none;
+    } */
+    .toolbar__links-removable{
+        display:none;
+    }
+    .toolbar__clock{
         display: none;
     }
 }

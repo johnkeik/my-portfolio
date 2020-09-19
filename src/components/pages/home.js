@@ -65,12 +65,12 @@ class Home extends Component {
         <Router>
           <header className="toolbar" >
             <nav className="toolbar__navigation">
-              <div className="toolbar__toggle-button" style={{ paddingRight: "20px" }}>
+              {/* <div className="toolbar__toggle-button" style={{ paddingRight: "20px" }}>
                 <DrawerToggleButton click={this.drawerToggleClickHandler} />
                 <SideDrawer show={this.state.sideDrawerOpen} />
                 {backdrop}
               </div>
-
+ */}
 
               <div className="toolbar__logo"><span onClick={() => scrollToComponent(this.Home, { offset: 0, align: 'top', duration: 1600 })}>JohnKeik</span></div>
               <div className="toolbar__navigation-items">
@@ -79,9 +79,9 @@ class Home extends Component {
                 <span onClick={() => scrollToComponent(this.Contact, { offset: 0, align: 'middle', duration: 1600, })}>Contact</span>
                 <span onClick={() => scrollToComponent(this.Portfolio, { offset: 0, align: 'middle', duration: 1600 })}>Portfolio</span> */}
 
-                <span><Link className="toolbar__links" to="/" onClick={() => scrollToComponent(this.Home, { offset: 0, align: 'middle', duration: 1600 })}>Home</Link></span>
-                <span><Link className="toolbar__links" to="/" onClick={() => scrollToComponent(this.Skills, { offset: 0, align: 'middle', duration: 1600 })}>Skills</Link></span>
-                <span><Link className="toolbar__links" to="/" onClick={() => scrollToComponent(this.Contact, { offset: 0, align: 'middle', duration: 1600, })}>Contact</Link></span>
+                <span ><Link className="toolbar__links" to="/" onClick={() => scrollToComponent(this.Home, { offset: 0, align: 'middle', duration: 1600 })}>Home</Link></span>
+                <span className="toolbar__links-removable"><Link className="toolbar__links" to="/" onClick={() => scrollToComponent(this.Skills, { offset: 0, align: 'middle', duration: 1600 })}>Skills</Link></span>
+                <span className="toolbar__links-removable"><Link className="toolbar__links" to="/" onClick={() => scrollToComponent(this.Contact, { offset: 0, align: 'middle', duration: 1600, })}>Contact</Link></span>
                 {/* <span><Link className="toolbar__links" to="/bio">Bio</Link></span> */}
                 <span><Link className="toolbar__links" to="/portfolio">Portfolio</Link></span>
               </div>
