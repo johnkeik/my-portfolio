@@ -7,6 +7,7 @@ import counterImg from '../assets/images/counter_Dart.png';
 import minionImg from '../assets/images/minion.png';
 import eventsImg from '../assets/images/eventsproject.png';
 import whitetowerImg from '../assets/images/whitetower.png';
+import portfolio_bs_jsImg from '../assets/images/portfolio-bootstrapjs.png';
 import './portfolio.scss';
 
 class Portfolio extends Component {
@@ -35,27 +36,48 @@ class Portfolio extends Component {
           <div className="column">
             <Card>
               <div onClick={() => {window.open("https://www.google.com/")}} style={{cusrsor:'pointer'}}>
-              <div className="image-container" style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img  className="port__image" alt="Web Apps"  src={counterImg}/></div>                                 
-                  <div className="card-title">Web Development <span role="img" aria-label="emoji">🧐</span></div>
-                  <div className="card-body"><p>Custom website wich can offer you stability,best design and google results.Fully responsive,SEO optimized.Low Cost!'</p></div>
+              <div className="image-container" style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img style={{maxWidth:'300px'}} className="port__image" alt="Web Apps"  src={counterImg}/></div>                                 
+                  <div className="card-title">BoardGames Counter</div>
+                  <div className="card-body"><p>Native mobile application using Flutter.Flutter is Google's UI toolkit for building beautiful,natively
+                    compiled applications for mobile,web,and desktop from a single code base. </p></div>
               </div>
             </Card>
           </div>
           <div className="column">
             <Card>
               <div onClick={() => {window.open("https://www.google.com/")}} style={{cusrsor:'pointer'}}>
-              <div className="image-container" style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img className="port__image" alt="Mobile Apps"  src={minionImg}/></div>                                 
-                  <div className="card-title">Mobile Apps<span role="img" aria-label="emoji">  😜 </span> </div>
-                  <div className="card-body"><p>Elegant designs on native android applications.Instead of using cross-platform code, we built native android applications which offers speed,elegant design and native functionality to provide better User Experience to your app's users.</p></div>
+              <div className="image-container" style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img style={{maxWidth:'300px'}} className="port__image" alt="Mobile Apps"  src={minionImg}/></div>                                 
+                  <div className="card-title">Minion animation</div>
+                  <div className="card-body"><p>Animation using 3ds Max.An academic project for creating a 3d model of a minion and playing arround with some animation tools
+                    and physics for the overall outcome.</p></div>
               </div>
             </Card>
           </div>
           <div className="column">
             <Card>
               <div onClick={() => {window.open("https://www.google.com/")}} style={{cusrsor:'pointer'}}>
-              <div className="image-container" style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img className="port__image" alt="Desktop Apps"  src={eventsImg}/></div>                                 
-                  <div className="card-title">Desktop Apps <span role="img" aria-label="emoji">😮</span>  </div>
-                  <div className="card-body"><p>High quallity desktop applications.Products target business that want to expand their services, or get feedback and improve their current services.</p></div>
+              <div className="image-container" style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img style={{maxWidth:'300px'}} className="port__image" alt="Desktop Apps"  src={eventsImg}/></div>                                 
+                  <div className="card-title">Thess Events Guide </div>
+                  <div className="card-body"><p>Desktop application for showing multiple events of Thessaloniki using C# and .NET Framework.Using a webscrapping tool 
+                    coded in python and taking info about events while keeping always updated.</p></div>
+              </div>
+            </Card>
+          </div>
+          <div className="column">
+            <Card>
+              <div onClick={() => {window.open("https://www.google.com/")}} style={{cusrsor:'pointer'}}>
+              <div className="image-container" style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img style={{maxWidth:'300px'}} className="port__image" alt="Desktop Apps"  src={whitetowerImg}/></div>                                 
+                  <div className="card-title">White Tower</div>
+                  <div className="card-body"><p>Model of Thessaloniki's  White Tower.Using 3ds max and creating a 3d model for academic purposes. </p></div>
+              </div>
+            </Card>
+          </div>
+          <div className="column">
+            <Card>
+              <div onClick={() => {window.open("https://johnkeik.github.io/myPortfolioSite/")}} style={{cusrsor:'pointer'}}>
+              <div className="image-container" style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img style={{maxWidth:'300px'}} className="port__image" alt="Desktop Apps"  src={portfolio_bs_jsImg}/></div>                                 
+                  <div className="card-title">Portfolio Site</div>
+                  <div className="card-body"><p>Fully responsive website using HTML,CSS,Javascript and Bootstrap.Singe paeg portfolio website with scrollable buttons. </p></div>
               </div>
             </Card>
           </div>

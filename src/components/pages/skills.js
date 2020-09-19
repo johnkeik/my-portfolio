@@ -29,7 +29,7 @@ class Skills extends Component {
 
                 <div className="column">
                   <Card>
-                    <div onClick={() => {window.open("https://www.google.com/")}} style={{cusrsor:'pointer'}}>
+                    <div /* onClick={() => {window.open("https://www.google.com/")}} */ style={{cusrsor:'pointer'}}>
                     <div style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img  alt="Web Apps" style={{width:'100px'}} src={web}/></div>                                 
                         <div className="card-title">Web Development <span role="img" aria-label="emoji">🧐</span></div>
                         <div className="card-body"><p>Custom website wich can offer you stability,best design and google results.Fully responsive,SEO optimized.Low Cost!'</p></div>
@@ -38,7 +38,7 @@ class Skills extends Component {
                 </div>
                 <div className="column">
                   <Card>
-                    <div onClick={() => {window.open("https://www.google.com/")}} style={{cusrsor:'pointer'}}>
+                    <div /* onClick={() => {window.open("https://www.google.com/")}} */ style={{cusrsor:'pointer'}}>
                     <div style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img alt="Mobile Apps" style={{width:'100px'}} src={tablet}/></div>                                 
                         <div className="card-title">Mobile Apps<span role="img" aria-label="emoji">  😜 </span> </div>
                         <div className="card-body"><p>Elegant designs on native android applications.Instead of using cross-platform code, we built native android applications which offers speed,elegant design and native functionality to provide better User Experience to your app's users.</p></div>
@@ -47,7 +47,7 @@ class Skills extends Component {
                 </div>
                 <div className="column">
                   <Card>
-                    <div onClick={() => {window.open("https://www.google.com/")}} style={{cusrsor:'pointer'}}>
+                    <div /* onClick={() => {window.open("https://www.google.com/")}} */ style={{cusrsor:'pointer'}}>
                     <div style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img alt="Desktop Apps" style={{width:'100px'}} src={desktop}/></div>                                 
                         <div className="card-title">Desktop Apps <span role="img" aria-label="emoji">😮</span>  </div>
                         <div className="card-body"><p>High quallity desktop applications.Products target business that want to expand their services, or get feedback and improve their current services.</p></div>
