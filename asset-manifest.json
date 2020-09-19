@@ -1,30 +1,31 @@
 {
   "files": {
     "main.css": "/johnkeik.github.io/static/css/main.0953f606.chunk.css",
-    "main.js": "/johnkeik.github.io/static/js/main.26270e10.chunk.js",
-    "main.js.map": "/johnkeik.github.io/static/js/main.26270e10.chunk.js.map",
+    "main.js": "/johnkeik.github.io/static/js/main.1b3052c4.chunk.js",
+    "main.js.map": "/johnkeik.github.io/static/js/main.1b3052c4.chunk.js.map",
     "runtime-main.js": "/johnkeik.github.io/static/js/runtime-main.41067b7c.js",
     "runtime-main.js.map": "/johnkeik.github.io/static/js/runtime-main.41067b7c.js.map",
-    "static/js/2.fc380aac.chunk.js": "/johnkeik.github.io/static/js/2.fc380aac.chunk.js",
-    "static/js/2.fc380aac.chunk.js.map": "/johnkeik.github.io/static/js/2.fc380aac.chunk.js.map",
+    "static/js/2.026495c5.chunk.js": "/johnkeik.github.io/static/js/2.026495c5.chunk.js",
+    "static/js/2.026495c5.chunk.js.map": "/johnkeik.github.io/static/js/2.026495c5.chunk.js.map",
     "index.html": "/johnkeik.github.io/index.html",
-    "precache-manifest.867fcfa39f3e05f62dc74c6d7b1f5d2d.js": "/johnkeik.github.io/precache-manifest.867fcfa39f3e05f62dc74c6d7b1f5d2d.js",
+    "precache-manifest.bbef8e7c58dd407cb95187bb7934b393.js": "/johnkeik.github.io/precache-manifest.bbef8e7c58dd407cb95187bb7934b393.js",
     "service-worker.js": "/johnkeik.github.io/service-worker.js",
     "static/css/main.0953f606.chunk.css.map": "/johnkeik.github.io/static/css/main.0953f606.chunk.css.map",
-    "static/js/2.fc380aac.chunk.js.LICENSE.txt": "/johnkeik.github.io/static/js/2.fc380aac.chunk.js.LICENSE.txt",
+    "static/js/2.026495c5.chunk.js.LICENSE.txt": "/johnkeik.github.io/static/js/2.026495c5.chunk.js.LICENSE.txt",
     "static/media/CV-Europass-Keikoglou-EN.pdf": "/johnkeik.github.io/static/media/CV-Europass-Keikoglou-EN.9edc275e.pdf",
     "static/media/counter_Dart.png": "/johnkeik.github.io/static/media/counter_Dart.60c74654.png",
     "static/media/desktop-trans.png": "/johnkeik.github.io/static/media/desktop-trans.7c36b0a0.png",
     "static/media/eventsproject.png": "/johnkeik.github.io/static/media/eventsproject.bd4b33ee.png",
     "static/media/minion.png": "/johnkeik.github.io/static/media/minion.06fd21b7.png",
+    "static/media/portfolio-bootstrapjs.png": "/johnkeik.github.io/static/media/portfolio-bootstrapjs.046f6306.png",
     "static/media/tablet-trans.png": "/johnkeik.github.io/static/media/tablet-trans.9541f535.png",
     "static/media/web-trans.png": "/johnkeik.github.io/static/media/web-trans.5ddfbfc5.png",
     "static/media/whitetower.png": "/johnkeik.github.io/static/media/whitetower.3de45e28.png"
   },
   "entrypoints": [
     "static/js/runtime-main.41067b7c.js",
-    "static/js/2.fc380aac.chunk.js",
+    "static/js/2.026495c5.chunk.js",
     "static/css/main.0953f606.chunk.css",
-    "static/js/main.26270e10.chunk.js"
+    "static/js/main.1b3052c4.chunk.js"
   ]
 }
