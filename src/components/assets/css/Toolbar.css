@@ -74,6 +74,7 @@
     .toolbar__clock{
         display: none;
     }
+    
 }
 
 @media (min-width:769px){
