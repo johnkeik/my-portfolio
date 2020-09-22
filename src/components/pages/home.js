@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import '../../App.css';
 import scrollToComponent from 'react-scroll-to-component';
 import '../assets/css/Toolbar.css';
-import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+/* import DrawerToggleButton from '../SideDrawer/DrawerToggleButton'; */
+/* import SideDrawer from '../SideDrawer/SideDrawer'; */
 import HomePage from './home_page';
 import Skills from './skills';
 import ContactUs from './contact';
@@ -11,10 +12,8 @@ import Clock from '../assets/clock';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope, faKey, faTablet } from '@fortawesome/free-solid-svg-icons';
 import Backdrop from '../Backdrop/Backdrop';
-import SideDrawer from '../SideDrawer/SideDrawer';
-import Bio from './bio';
 import Portfolio from './portfolio';
-import samplePdf from "../assets/CV-Europass-Keikoglou-EN.pdf"
+
 
 library.add(faEnvelope, faKey, faTablet);
 
@@ -53,12 +52,12 @@ class Home extends Component {
     }; */
 
   render() {
-
+/* 
     let backdrop;
 
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
-    }
+    } */
 
     return (
       <div className="App" style={{ height: "100%" }}>

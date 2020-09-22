@@ -142,6 +142,9 @@
   
     
   }
+  .image-container:hover{
+    cursor:grab;
+  }
 
 
   .image-inner-container {
@@ -175,3 +178,14 @@
     text-align: center;
 
   }
+
+
+.card__code__span{
+font-style: oblique;
+ text-decoration: underline;
+ color:blue;
+
+}
+.card__code__span:hover{
+  cursor: grab;
+}

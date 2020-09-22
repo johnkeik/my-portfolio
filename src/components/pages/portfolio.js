@@ -1,8 +1,5 @@
 import React, { useState, useRef, Component } from 'react';
 import { useSpring, animated } from 'react-spring';
-import tablet from '../assets/icons/tablet-trans.png';
-import web from '../assets/icons/web-trans.png';
-import desktop from '../assets/icons/desktop-trans.png';
 import counterImg from '../assets/images/counter_Dart.png';
 import minionImg from '../assets/images/minion.png';
 import eventsImg from '../assets/images/eventsproject.png';
@@ -35,17 +32,18 @@ class Portfolio extends Component {
 
           <div className="column">
             <Card>
-              <div onClick={() => {window.open("https://www.google.com/")}} style={{cusrsor:'pointer'}}>
+              <div onClick={() => {window.open("https://play.google.com/store/apps/details?id=jk.counter")}} style={{cusrsor:'pointer'}}>
               <div className="image-container" style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img style={{maxWidth:'300px'}} className="port__image" alt="Web Apps"  src={counterImg}/></div>                                 
                   <div className="card-title">BoardGames Counter</div>
                   <div className="card-body"><p>Native mobile application using Flutter.Flutter is Google's UI toolkit for building beautiful,natively
                     compiled applications for mobile,web,and desktop from a single code base. </p></div>
+                    <div><span className="card__code__span" onClick={() => {window.open("https://github.com/johnkeik/counter")}}>Check code</span></div>
               </div>
             </Card>
           </div>
           <div className="column">
             <Card>
-              <div onClick={() => {window.open("https://www.google.com/")}} style={{cusrsor:'pointer'}}>
+              <div onClick={() => {window.open("https://drive.google.com/open?id=1vPggPwiMpWVJWan9x7Lesrf2k8x0NSNP")}} style={{cusrsor:'pointer'}}>
               <div className="image-container" style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img style={{maxWidth:'300px'}} className="port__image" alt="Mobile Apps"  src={minionImg}/></div>                                 
                   <div className="card-title">Minion animation</div>
                   <div className="card-body"><p>Animation using 3ds Max.An academic project for creating a 3d model of a minion and playing arround with some animation tools
@@ -55,17 +53,18 @@ class Portfolio extends Component {
           </div>
           <div className="column">
             <Card>
-              <div onClick={() => {window.open("https://www.google.com/")}} style={{cusrsor:'pointer'}}>
+              <div onClick={() => {window.open("https://github.com/N1ckTheD1ck/Events-Project-Team-7.git")}} style={{cusrsor:'pointer'}}>
               <div className="image-container" style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img style={{maxWidth:'300px'}} className="port__image" alt="Desktop Apps"  src={eventsImg}/></div>                                 
                   <div className="card-title">Thess Events Guide </div>
                   <div className="card-body"><p>Desktop application for showing multiple events of Thessaloniki using C# and .NET Framework.Using a webscrapping tool 
                     coded in python and taking info about events while keeping always updated.</p></div>
+                    <div><span className="card__code__span" onClick={() => {window.open("https://github.com/N1ckTheD1ck/Events-Project-Team-7.git")}}>Check code</span></div>
               </div>
             </Card>
           </div>
           <div className="column">
             <Card>
-              <div onClick={() => {window.open("https://www.google.com/")}} style={{cusrsor:'pointer'}}>
+              <div onClick={() => {window.open("https://drive.google.com/open?id=18j9BiAM18nx5PYpQ8-yv4CVhFiUFTiHy")}} style={{cusrsor:'pointer'}}>
               <div className="image-container" style={{ width: '100%', textAlign: 'center' ,paddingBottom:'1rem'}}><img style={{maxWidth:'300px'}} className="port__image" alt="Desktop Apps"  src={whitetowerImg}/></div>                                 
                   <div className="card-title">White Tower</div>
                   <div className="card-body"><p>Model of Thessaloniki's  White Tower.Using 3ds max and creating a 3d model for academic purposes. </p></div>

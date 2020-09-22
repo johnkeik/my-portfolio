@@ -1,7 +1,6 @@
-import React, { Component, useState, Button } from 'react';
+import React, { useState, } from 'react';
 import '../assets/css/skills.scss';
 import '../assets/css/home-page.css';
-import Bio from './bio';
 import Popup from './Popup';
 
 function HomePage() {
